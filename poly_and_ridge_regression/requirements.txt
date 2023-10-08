@@ -1,0 +1,5 @@
+numpy~=1.23.3
+torch~=1.12.1
+wget~=3.2
+setuptools~=63.4.1
+matplotlib~=3.5.2
