@@ -66,13 +66,21 @@ Next, test LASSO implementation on crime : real dataset.
 This stores the data as Pandas DataFrame objects. DataFrames are similar to Numpy arrays but more flexible;
 unlike arrays, DataFrames store row and column indices along with the values of the data. Each column of a
 DataFrame can also store data of a different type (here, all data are floats). Few commands for working with Pandas :
+
 df.head() # Print the first few lines of DataFrame df.
+
 df.index # Get the row indices for df.
+
 df.columns # Get the column indices.
+
 df[``foo''] # Return the column named ``foo''.
+
 df.drop(``foo'', axis = 1) # Return all columns except ``foo''.
+
 df.values # Return the values as a Numpy array.
+
 df[``foo''].values # Grab column foo and convert to Numpy array.
+
 df.iloc[:3,:3] # Use numerical indices (like Numpy) to get 3 rows and cols.
 
 
