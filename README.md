@@ -12,7 +12,7 @@ This repo contains Machine Learning implementations using Python for the followi
 - Principal Component Analysis
 - Comparison of execution times using native python and Numpy vector form
 - Empirical study of Central Limit Theorem in code
-- simCLR self-implementation with DCL Loss
+- simCLR implementation with DCL Loss
 
 
 
