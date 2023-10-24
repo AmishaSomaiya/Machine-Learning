@@ -12,7 +12,7 @@ This repo contains Machine Learning implementations using Python for the followi
 - Principal Component Analysis
 - Comparison of execution times using native python and Numpy vector form
 - Empirical study of Central Limit Theorem in code
-- simCLR implementation with DCL Loss
+- CSE576_Group3_FinalReport.pdf : simCLR implementation with DCL Loss
 
 
 
@@ -150,7 +150,7 @@ i.e. for all x, |FX(x) − FY (x)| = 0. The central limit theorem says that the 
 variance 1/k random variables converges to a (standard) Normal distribution as k tends to infinity. This phenomenon is studied empirically here. 
 
 
-## simCLR implementation with DCL Loss
+## CSE576_Group3_FinalReport.pdf : simCLR implementation with DCL Loss
 
 This implementation addresses the challenge of unavailability of annotations in real 
 world vision datasets by generating representations by extracting useful features 
@@ -169,7 +169,6 @@ has comparable performance to previously obtained top1 accuracy of 85.08% at
 higher batch size of 128. Thus, the final project implementation of simCLR with 
 DCL efficiently generates vision representations at lower batch sizes with 
 computational savings and good performance metrics that can be used for 
-several downstream vision tasks.
-
+several downstream vision tasks. The detailed report in in the CSE576_Group3_FinalReport.pdf
 
 	
