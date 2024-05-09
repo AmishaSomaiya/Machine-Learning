@@ -17,10 +17,13 @@ CatLIP by Apple April 25, 2024
 
 Llama3 + Groq April 21, 2024 
 https://pub.towardsai.net/llama-3-groq-is-the-ai-heaven-337b6afeced3 
-
+8B and 70B
 
 Corenet SLM by Apple   (around April 24 2024)
+
 Phi3 mini SLM by Microsoft (around April 23 2024)
+One is the Phi 3 with a 4k context size and the other is the Phi 3 with a 128k context size. Both of these have the same architecture and a size of 3.8 Billion Parameters called the Phi 3 mini.
+With 32 heads and 32 layers, Phi-3 balances model complexity with computational efficiency, making it suitable for deployment on mobile devices.
 
 gemini, claude (need to check timeline position)
 
@@ -60,7 +63,7 @@ can receive upto 128k input tokens but output only upto 4096 tokens
 The biggest GPT-4 model can only process ~50 pages of input text, and performance (measured by inference time and accuracy) degrades badly as you approach this limit, called a context window.
 
 
--gpt3 (2022) 12-96 layers 175Bi parameters
+	-gpt3 (2022) 12-96 layers 175Bi parameters
 100x larger than gpt2 = 175B paras, excellent zero shot and few shot learning, data = webtext + raw common crael + selection of books + all of wiki = 500 bi tokens, but only trained on 300 bi tokens 
 
 shift from text completion mindset to instruction following mindset
